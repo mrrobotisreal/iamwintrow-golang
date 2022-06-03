@@ -12,3 +12,7 @@ func Home(w http.ResponseWriter, r *http.Request) {
 func About(w http.ResponseWriter, r *http.Request) {
 	RenderTemplate(w, "about.page.html")
 }
+
+func Blogs(w http.ResponseWriter, r *http.Request) {
+	RenderTemplate(w, "blogs.page.html")
+}
